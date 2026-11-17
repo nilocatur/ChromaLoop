@@ -1,0 +1,63 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+config_name="ChromaLoop"
+version_major=1
+version_minor=2
+version_patch=0
+feature_tags=["GLES3"]
+main_scene="res://scenes/app/GameRoot.tscn"
+
+[application]
+
+run/main_scene="res://scenes/app/GameRoot.tscn"
+config/features=PackedStringArray("4.7")
+config/use_custom_data_dir=false
+
+[autoload]
+
+SceneRouter="res://scripts/autoload/SceneRouter.gd"
+PlayerProgress="res://scripts/autoload/PlayerProgress.gd"
+AudioDirector="res://scripts/autoload/AudioDirector.gd"
+AssetCatalog="res://scripts/autoload/AssetCatalog.gd"
+UITheme="res://scripts/autoload/UITheme.gd"
+LevelRepository="res://scripts/data/LevelRepository.gd"
+
+[display]
+
+window/size/viewport_width=540
+window/size/viewport_height=960
+window/size/window_width_override=540
+window/size/window_height_override=960
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+window/handheld/orientation=1
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+
+[scripting]
+
+gdscript/strict_typing=-1
+gdscript/warnings_as_errors=false
+
+[window]
+
+video/width=540
+video/height=960
+video/resizable=false
+video/borderless=false
+video/fullscreen=false
+video/scaling_mode=1
+video/aspect=1
+video/shrink_mode=2
+video/use_hdr=false
+platform_icons=["res://assets/ui/brand/app_icon.png"]

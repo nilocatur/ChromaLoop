@@ -1,0 +1,274 @@
+{
+  "schema_version": 2,
+  "rules_version": 1,
+  "id": "level_011",
+  "number": 11,
+  "title": "Mystery Signal",
+  "difficulty": "medium",
+  "mechanic_tags": [
+    "basic_matching",
+    "mystery_hidden"
+  ],
+  "seed": 1011,
+  "belt_capacity": 22,
+  "lane_count": 4,
+  "tray_marble_count": 9,
+  "moves_limit": 5,
+  "starting_boosters": {
+    "sweep": 0,
+    "picker": 0,
+    "reorder": 0
+  },
+  "allowed_boosters": [
+    "sweep",
+    "picker",
+    "reorder"
+  ],
+  "tutorial": {
+    "enabled": true,
+    "steps": [
+      {
+        "text": "Mystery trays reveal after marked tray clears."
+      }
+    ]
+  },
+  "ui_theme": "cobalt_bubbles",
+  "trays": [
+    {
+      "id": "t1",
+      "grid_x": 0,
+      "grid_y": 0,
+      "type": "standard",
+      "marbles": [
+        "pink",
+        "pink",
+        "pink",
+        "pink",
+        "pink",
+        "pink",
+        "pink",
+        "pink",
+        "pink"
+      ]
+    },
+    {
+      "id": "t2",
+      "grid_x": 1,
+      "grid_y": 0,
+      "type": "mystery",
+      "marbles": [
+        "blue",
+        "blue",
+        "blue",
+        "blue",
+        "blue",
+        "blue",
+        "blue",
+        "blue",
+        "blue"
+      ],
+      "unlock_after": [
+        "t1"
+      ]
+    },
+    {
+      "id": "t3",
+      "grid_x": 2,
+      "grid_y": 0,
+      "type": "mystery",
+      "marbles": [
+        "green",
+        "green",
+        "green",
+        "green",
+        "green",
+        "green",
+        "green",
+        "green",
+        "green"
+      ],
+      "unlock_after": [
+        "t2"
+      ]
+    },
+    {
+      "id": "t4",
+      "grid_x": 0,
+      "grid_y": 1,
+      "type": "mystery",
+      "marbles": [
+        "yellow",
+        "yellow",
+        "yellow",
+        "yellow",
+        "yellow",
+        "yellow",
+        "yellow",
+        "yellow",
+        "yellow"
+      ],
+      "unlock_after": [
+        "t1"
+      ]
+    },
+    {
+      "id": "t5",
+      "grid_x": 1,
+      "grid_y": 1,
+      "type": "mystery",
+      "marbles": [
+        "purple",
+        "purple",
+        "purple",
+        "purple",
+        "purple",
+        "purple",
+        "purple",
+        "purple",
+        "purple"
+      ],
+      "unlock_after": [
+        "t2"
+      ]
+    }
+  ],
+  "lanes": [
+    [
+      {
+        "id": "l1_r1",
+        "color": "blue",
+        "capacity": 3
+      },
+      {
+        "id": "l1_r2",
+        "color": "green",
+        "capacity": 3
+      },
+      {
+        "id": "l1_r3",
+        "color": "blue",
+        "capacity": 3
+      },
+      {
+        "id": "l1_r4",
+        "color": "yellow",
+        "capacity": 3
+      }
+    ],
+    [
+      {
+        "id": "l2_r1",
+        "color": "purple",
+        "capacity": 3
+      },
+      {
+        "id": "l2_r2",
+        "color": "pink",
+        "capacity": 3
+      },
+      {
+        "id": "l2_r3",
+        "color": "pink",
+        "capacity": 3
+      },
+      {
+        "id": "l2_r4",
+        "color": "purple",
+        "capacity": 3
+      }
+    ],
+    [
+      {
+        "id": "l3_r1",
+        "color": "green",
+        "capacity": 3
+      },
+      {
+        "id": "l3_r2",
+        "color": "blue",
+        "capacity": 3
+      },
+      {
+        "id": "l3_r3",
+        "color": "pink",
+        "capacity": 3
+      },
+      {
+        "id": "l3_r4",
+        "color": "yellow",
+        "capacity": 3
+      }
+    ],
+    [
+      {
+        "id": "l4_r1",
+        "color": "green",
+        "capacity": 3
+      },
+      {
+        "id": "l4_r2",
+        "color": "yellow",
+        "capacity": 3
+      },
+      {
+        "id": "l4_r3",
+        "color": "purple",
+        "capacity": 3
+      }
+    ]
+  ],
+  "obstacles": [
+    {
+      "id": "o2",
+      "type": "mystery",
+      "tray_id": "t2",
+      "unlock_after": [
+        "t1"
+      ]
+    },
+    {
+      "id": "o3",
+      "type": "mystery",
+      "tray_id": "t3",
+      "unlock_after": [
+        "t2"
+      ]
+    },
+    {
+      "id": "o4",
+      "type": "mystery",
+      "tray_id": "t4",
+      "unlock_after": [
+        "t1"
+      ]
+    },
+    {
+      "id": "o5",
+      "type": "mystery",
+      "tray_id": "t5",
+      "unlock_after": [
+        "t2"
+      ]
+    }
+  ],
+  "objectives": {
+    "clear_all_trays": true
+  },
+  "rewards": {
+    "coins": 47,
+    "stars_max": 3
+  },
+  "validation": {
+    "expected_trace": [
+      "t1",
+      "t2",
+      "t3",
+      "t4",
+      "t5"
+    ],
+    "validated_at": "2026-11-18",
+    "rules_version": 1,
+    "solution_count": 4,
+    "test_checksum": "269ef98b32879d39"
+  }
+}

@@ -1,0 +1,43 @@
+extends SceneTree
+
+func _initialize() -> void:
+	await process_frame
+	get_root().get_node("AudioDirector").set_music_volume(0.0)
+	var progress = get_root().get_node("PlayerProgress")
+	var original_profile: Dictionary = progress.profile.duplicate(true)
+	progress.profile = progress._default_profile()
+	progress.set_player_name("  Chroma Tester  ")
+	assert(progress.profile.get("player_name", "") == "Chroma Tester")
+	progress.set_avatar("avatar_02_dragon")
+	assert(progress.profile.get("avatar_id", "") == "avatar_02_dragon")
+	progress.set_avatar("avatar_missing")
+	assert(progress.profile.get("avatar_id", "") == "avatar_02_dragon")
+	progress.add_coins(100)
+	assert(progress.buy_booster("sweep"))
+	assert(progress.get_coins() == 40)
+	assert(progress.get_booster_count("sweep") == 1)
+	assert(not progress.buy_booster("picker"))
+	assert(not progress.buy_booster("unknown"))
+	progress.complete_level("level_001", 1, 3, 0)
+	assert(progress.get_win_streak() == 1)
+	progress.break_win_streak()
+	assert(progress.get_win_streak() == 0)
+	progress.profile = original_profile
+	progress._save()
+	var lobby = load("res://scenes/app/Lobby.tscn").instantiate()
+	root.add_child(lobby)
+	await process_frame
+	assert(lobby.get_node_or_null("SafeArea/Layout/Header/AvatarButton") != null)
+	assert(lobby.get_node_or_null("SafeArea/Layout/BottomTabs/SettingsTab") != null)
+	assert(lobby.level_nodes.get_child_count() == 30)
+	lobby._show_avatar_picker()
+	assert(lobby._popup != null)
+	lobby._show_shop()
+	assert(lobby._popup.find_child("Status", true, false) != null)
+	lobby._show_settings()
+	assert(lobby._popup != null)
+	lobby.free()
+	get_root().get_node("AudioDirector").stop_music()
+	await process_frame
+	print("Meta self-check passed")
+	quit(0)

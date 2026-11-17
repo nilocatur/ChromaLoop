@@ -1,0 +1,117 @@
+[gd_scene load_steps=3 format=3 uid="C3A1F7E0-1111-4444-8888-1234567890AB"]
+
+[ext_resource type="Script" id="1" path="res://scripts/ui/ModalDialog.gd"]
+[ext_resource type="Texture2D" id="2" path="res://assets/ui/panels/panel_victory_large.png"]
+
+[node name="ModalDialog" type="Control"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 0
+layout_preset_mode = 1
+script = ExtResource("1")
+visible = false
+
+[node name="Backdrop" type="ColorRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0, 0, 0, 0.6)
+
+[node name="Panel" type="CenterContainer" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Frame" type="TextureRect" parent="Panel/"]
+custom_minimum_size = Vector2(468, 430)
+texture = ExtResource("2")
+expand_mode = 1
+stretch_mode = 0
+
+[node name="Content" type="VBoxContainer" parent="Panel/Frame/"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 44.0
+offset_top = 35.0
+offset_right = -44.0
+offset_bottom = -30.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 12
+
+[node name="Art" type="TextureRect" parent="Panel/Frame/Content/"]
+visible = false
+custom_minimum_size = Vector2(0, 150)
+expand_mode = 1
+stretch_mode = 5
+mouse_filter = 2
+
+[node name="Title" type="Label" parent="Panel/Frame/Content/"]
+horizontal_alignment = 1
+vertical_alignment = 0
+text = "Title"
+
+[node name="Message" type="Label" parent="Panel/Frame/Content/"]
+horizontal_alignment = 1
+vertical_alignment = 0
+autowrap_mode = 3
+text = "Message"
+
+[node name="Stars" type="HBoxContainer" parent="Panel/Frame/Content/"]
+visible = false
+alignment = 1
+theme_override_constants/separation = 8
+
+[node name="star_a" type="TextureRect" parent="Panel/Frame/Content/Stars/"]
+custom_minimum_size = Vector2(56, 56)
+expand_mode = 1
+stretch_mode = 5
+mouse_filter = 2
+
+[node name="star_b" type="TextureRect" parent="Panel/Frame/Content/Stars/"]
+custom_minimum_size = Vector2(56, 56)
+expand_mode = 1
+stretch_mode = 5
+mouse_filter = 2
+
+[node name="star_c" type="TextureRect" parent="Panel/Frame/Content/Stars/"]
+custom_minimum_size = Vector2(56, 56)
+expand_mode = 1
+stretch_mode = 5
+mouse_filter = 2
+
+[node name="Buttons" type="HBoxContainer" parent="Panel/Frame/Content/"]
+alignment = 1
+size_flags_horizontal = 3
+theme_override_constants/separation = 8
+
+[node name="btn_a" type="Button" parent="Panel/Frame/Content/Buttons/"]
+custom_minimum_size = Vector2(112, 54)
+text = "A"
+visible = false
+flat = true
+expand_icon = true
+
+[node name="btn_b" type="Button" parent="Panel/Frame/Content/Buttons/"]
+custom_minimum_size = Vector2(112, 54)
+text = "B"
+visible = false
+flat = true
+expand_icon = true
+
+[node name="btn_c" type="Button" parent="Panel/Frame/Content/Buttons/"]
+custom_minimum_size = Vector2(112, 54)
+text = "C"
+visible = false
+flat = true
+expand_icon = true

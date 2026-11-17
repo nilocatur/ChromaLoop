@@ -1,0 +1,16 @@
+{
+  "balance_version": 1,
+  "max_hearts": 5,
+  "heart_regen_minutes": 20,
+  "hearts_cost_restart": 1,
+  "hearts_cost_retry": 1,
+  "belt_capacity_default": 22,
+  "receiver_capacity": 3,
+  "lane_count_default": 4,
+  "tray_marble_count_default": 9,
+  "tutorial_allotment": {"sweep": 1, "picker": 1, "reorder": 1},
+  "win_reward_coins_base": 30,
+  "win_reward_stars_max": 3,
+  "streak_target": 5,
+  "moves_limit_default": null
+}

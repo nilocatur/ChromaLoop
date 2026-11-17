@@ -1,0 +1,590 @@
+[
+  {
+    "file": "001_ball_red.png",
+    "size": [
+      68,
+      75
+    ]
+  },
+  {
+    "file": "002_ball_blue.png",
+    "size": [
+      67,
+      77
+    ]
+  },
+  {
+    "file": "003_ball_green.png",
+    "size": [
+      67,
+      77
+    ]
+  },
+  {
+    "file": "004_ball_yellow.png",
+    "size": [
+      66,
+      77
+    ]
+  },
+  {
+    "file": "005_ball_purple.png",
+    "size": [
+      67,
+      77
+    ]
+  },
+  {
+    "file": "006_ball_orange.png",
+    "size": [
+      66,
+      77
+    ]
+  },
+  {
+    "file": "007_ball_pink.png",
+    "size": [
+      67,
+      77
+    ]
+  },
+  {
+    "file": "008_ball_cyan.png",
+    "size": [
+      66,
+      77
+    ]
+  },
+  {
+    "file": "009_ball_navy.png",
+    "size": [
+      66,
+      77
+    ]
+  },
+  {
+    "file": "010_ball_lime.png",
+    "size": [
+      67,
+      77
+    ]
+  },
+  {
+    "file": "011_ball_silver.png",
+    "size": [
+      66,
+      77
+    ]
+  },
+  {
+    "file": "012_ball_rainbow.png",
+    "size": [
+      65,
+      77
+    ]
+  },
+  {
+    "file": "013_ball_black.png",
+    "size": [
+      67,
+      77
+    ]
+  },
+  {
+    "file": "014_ball_diamond.png",
+    "size": [
+      67,
+      77
+    ]
+  },
+  {
+    "file": "015_ball_brown.png",
+    "size": [
+      76,
+      77
+    ]
+  },
+  {
+    "file": "016_tray_beige.png",
+    "size": [
+      180,
+      165
+    ]
+  },
+  {
+    "file": "017_tray_purple.png",
+    "size": [
+      164,
+      165
+    ]
+  },
+  {
+    "file": "018_tray_blue.png",
+    "size": [
+      166,
+      165
+    ]
+  },
+  {
+    "file": "019_tray_green.png",
+    "size": [
+      163,
+      165
+    ]
+  },
+  {
+    "file": "020_tray_yellow.png",
+    "size": [
+      165,
+      165
+    ]
+  },
+  {
+    "file": "021_tray_pink.png",
+    "size": [
+      163,
+      165
+    ]
+  },
+  {
+    "file": "022_column_red.png",
+    "size": [
+      88,
+      216
+    ]
+  },
+  {
+    "file": "023_column_blue.png",
+    "size": [
+      87,
+      216
+    ]
+  },
+  {
+    "file": "024_column_green.png",
+    "size": [
+      85,
+      216
+    ]
+  },
+  {
+    "file": "025_column_yellow.png",
+    "size": [
+      82,
+      216
+    ]
+  },
+  {
+    "file": "026_column_purple.png",
+    "size": [
+      86,
+      216
+    ]
+  },
+  {
+    "file": "027_column_pink.png",
+    "size": [
+      84,
+      216
+    ]
+  },
+  {
+    "file": "028_conveyor_straight.png",
+    "size": [
+      195,
+      85
+    ]
+  },
+  {
+    "file": "029_conveyor_rounded.png",
+    "size": [
+      207,
+      117
+    ]
+  },
+  {
+    "file": "030_conveyor_curved.png",
+    "size": [
+      128,
+      106
+    ]
+  },
+  {
+    "file": "031_conveyor_ring.png",
+    "size": [
+      115,
+      110
+    ]
+  },
+  {
+    "file": "032_funnel.png",
+    "size": [
+      149,
+      200
+    ]
+  },
+  {
+    "file": "033_mystery_box.png",
+    "size": [
+      87,
+      98
+    ]
+  },
+  {
+    "file": "034_wooden_crate.png",
+    "size": [
+      86,
+      98
+    ]
+  },
+  {
+    "file": "035_ice_block.png",
+    "size": [
+      77,
+      98
+    ]
+  },
+  {
+    "file": "036_stone_block.png",
+    "size": [
+      83,
+      98
+    ]
+  },
+  {
+    "file": "037_lock_gold.png",
+    "size": [
+      75,
+      98
+    ]
+  },
+  {
+    "file": "038_lock_purple.png",
+    "size": [
+      66,
+      98
+    ]
+  },
+  {
+    "file": "039_chain.png",
+    "size": [
+      54,
+      98
+    ]
+  },
+  {
+    "file": "040_spike.png",
+    "size": [
+      61,
+      98
+    ]
+  },
+  {
+    "file": "041_color_square.png",
+    "size": [
+      90,
+      97
+    ]
+  },
+  {
+    "file": "042_fast_forward.png",
+    "size": [
+      81,
+      96
+    ]
+  },
+  {
+    "file": "043_arrow_right.png",
+    "size": [
+      74,
+      98
+    ]
+  },
+  {
+    "file": "044_shuffle.png",
+    "size": [
+      74,
+      97
+    ]
+  },
+  {
+    "file": "045_double_score.png",
+    "size": [
+      88,
+      98
+    ]
+  },
+  {
+    "file": "046_portal_blue.png",
+    "size": [
+      117,
+      119
+    ]
+  },
+  {
+    "file": "047_portal_green.png",
+    "size": [
+      131,
+      129
+    ]
+  },
+  {
+    "file": "048_cannon.png",
+    "size": [
+      122,
+      129
+    ]
+  },
+  {
+    "file": "049_magnet.png",
+    "size": [
+      107,
+      123
+    ]
+  },
+  {
+    "file": "050_swap_arrows.png",
+    "size": [
+      105,
+      129
+    ]
+  },
+  {
+    "file": "051_gumball_machine.png",
+    "size": [
+      104,
+      126
+    ]
+  },
+  {
+    "file": "052_coins_stack.png",
+    "size": [
+      116,
+      119
+    ]
+  },
+  {
+    "file": "053_crown_coin.png",
+    "size": [
+      81,
+      110
+    ]
+  },
+  {
+    "file": "054_heart.png",
+    "size": [
+      120,
+      129
+    ]
+  },
+  {
+    "file": "055_infinite_lives.png",
+    "size": [
+      116,
+      113
+    ]
+  },
+  {
+    "file": "056_no_ads.png",
+    "size": [
+      107,
+      109
+    ]
+  },
+  {
+    "file": "057_gift.png",
+    "size": [
+      109,
+      113
+    ]
+  },
+  {
+    "file": "058_shop_bag.png",
+    "size": [
+      99,
+      113
+    ]
+  },
+  {
+    "file": "059_treasure_chest.png",
+    "size": [
+      117,
+      110
+    ]
+  },
+  {
+    "file": "060_coconut.png",
+    "size": [
+      123,
+      113
+    ]
+  },
+  {
+    "file": "061_energy_potion.png",
+    "size": [
+      91,
+      113
+    ]
+  },
+  {
+    "file": "062_rocket.png",
+    "size": [
+      110,
+      113
+    ]
+  },
+  {
+    "file": "063_settings.png",
+    "size": [
+      112,
+      113
+    ]
+  },
+  {
+    "file": "064_play.png",
+    "size": [
+      107,
+      103
+    ]
+  },
+  {
+    "file": "065_store.png",
+    "size": [
+      102,
+      99
+    ]
+  },
+  {
+    "file": "066_plus.png",
+    "size": [
+      91,
+      99
+    ]
+  },
+  {
+    "file": "067_close.png",
+    "size": [
+      96,
+      98
+    ]
+  },
+  {
+    "file": "068_edit.png",
+    "size": [
+      99,
+      103
+    ]
+  },
+  {
+    "file": "069_check.png",
+    "size": [
+      97,
+      103
+    ]
+  },
+  {
+    "file": "070_level_1.png",
+    "size": [
+      92,
+      103
+    ]
+  },
+  {
+    "file": "071_level_2.png",
+    "size": [
+      90,
+      103
+    ]
+  },
+  {
+    "file": "072_level_3.png",
+    "size": [
+      90,
+      100
+    ]
+  },
+  {
+    "file": "073_hard.png",
+    "size": [
+      146,
+      103
+    ]
+  },
+  {
+    "file": "074_star_gold_1.png",
+    "size": [
+      83,
+      93
+    ]
+  },
+  {
+    "file": "075_star_gold_2.png",
+    "size": [
+      80,
+      88
+    ]
+  },
+  {
+    "file": "076_star_gold_3.png",
+    "size": [
+      82,
+      89
+    ]
+  },
+  {
+    "file": "077_star_silver.png",
+    "size": [
+      80,
+      87
+    ]
+  },
+  {
+    "file": "078_star_bronze.png",
+    "size": [
+      80,
+      86
+    ]
+  },
+  {
+    "file": "079_sparkles_gold.png",
+    "size": [
+      88,
+      98
+    ]
+  },
+  {
+    "file": "080_sparkles_blue.png",
+    "size": [
+      69,
+      98
+    ]
+  },
+  {
+    "file": "081_sparkles_pink.png",
+    "size": [
+      95,
+      98
+    ]
+  },
+  {
+    "file": "082_sparkle_burst.png",
+    "size": [
+      90,
+      98
+    ]
+  },
+  {
+    "file": "083_confetti.png",
+    "size": [
+      152,
+      93
+    ]
+  },
+  {
+    "file": "084_crown.png",
+    "size": [
+      102,
+      98
+    ]
+  }
+]

@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="A6D73509-6A91-49F7-827F-15056904D36F"]
+
+[ext_resource type="Script" id="1" path="res://scripts/app/GameRoot.gd"]
+
+[node name="GameRoot" type="Control"]
+anchor_preset = 7
+layout_preset_mode = 1
+size = Vector2(540, 960)
+script = ExtResource("1")
+
+[node name="GameContent" type="Node" parent="."]

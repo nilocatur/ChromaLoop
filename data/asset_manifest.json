@@ -1,0 +1,177 @@
+{
+  "manifest_version": 1,
+  "source_bundles": [
+    "mobile_game_assets.zip (84 gameplay PNGs)",
+    "chromaloop_separated_assets.zip (32 UI/background/branding PNGs)",
+    "chromaloop_avatars_precise.zip (12 avatar PNGs)"
+  ],
+  "marbles": {
+    "red":   "res://assets/gameplay/marbles/001_ball_red.png",
+    "blue":  "res://assets/gameplay/marbles/002_ball_blue.png",
+    "green": "res://assets/gameplay/marbles/003_ball_green.png",
+    "yellow":"res://assets/gameplay/marbles/004_ball_yellow.png",
+    "purple":"res://assets/gameplay/marbles/005_ball_purple.png",
+    "orange":"res://assets/gameplay/marbles/006_ball_orange.png",
+    "pink":  "res://assets/gameplay/marbles/007_ball_pink.png",
+    "cyan":  "res://assets/gameplay/marbles/008_ball_cyan.png",
+    "navy":  "res://assets/gameplay/marbles/009_ball_navy.png",
+    "lime":  "res://assets/gameplay/marbles/010_ball_lime.png",
+    "silver":"res://assets/gameplay/marbles/011_ball_silver.png",
+    "rainbow":"res://assets/gameplay/marbles/012_ball_rainbow.png",
+    "black": "res://assets/gameplay/marbles/013_ball_black.png",
+    "diamond":"res://assets/gameplay/marbles/014_ball_diamond.png",
+    "brown": "res://assets/gameplay/marbles/015_ball_brown.png"
+  },
+  "trays": {
+    "beige": "res://assets/gameplay/trays/016_tray_beige.png",
+    "purple":"res://assets/gameplay/trays/017_tray_purple.png",
+    "blue":  "res://assets/gameplay/trays/018_tray_blue.png",
+    "green": "res://assets/gameplay/trays/019_tray_green.png",
+    "yellow":"res://assets/gameplay/trays/020_tray_yellow.png",
+    "pink":  "res://assets/gameplay/trays/021_tray_pink.png"
+  },
+  "receivers": {
+    "red":   "res://assets/gameplay/receivers/022_column_red.png",
+    "blue":  "res://assets/gameplay/receivers/023_column_blue.png",
+    "green": "res://assets/gameplay/receivers/024_column_green.png",
+    "yellow":"res://assets/gameplay/receivers/025_column_yellow.png",
+    "purple":"res://assets/gameplay/receivers/026_column_purple.png",
+    "pink":  "res://assets/gameplay/receivers/027_column_pink.png"
+  },
+  "conveyor": {
+    "straight": "res://assets/gameplay/conveyor/028_conveyor_straight.png",
+    "rounded":  "res://assets/gameplay/conveyor/029_conveyor_rounded.png",
+    "curved":   "res://assets/gameplay/conveyor/030_conveyor_curved.png",
+    "ring":     "res://assets/gameplay/conveyor/031_conveyor_ring.png",
+    "funnel":   "res://assets/gameplay/conveyor/032_funnel.png"
+  },
+  "obstacles": {
+    "mystery_box": "res://assets/gameplay/mechanics/033_mystery_box.png",
+    "wooden_crate":"res://assets/gameplay/mechanics/034_wooden_crate.png",
+    "ice_block":   "res://assets/gameplay/mechanics/035_ice_block.png",
+    "stone_block": "res://assets/gameplay/mechanics/036_stone_block.png",
+    "lock_gold":   "res://assets/gameplay/mechanics/037_lock_gold.png",
+    "lock_purple": "res://assets/gameplay/mechanics/038_lock_purple.png",
+    "chain":       "res://assets/gameplay/mechanics/039_chain.png",
+    "spike":       "res://assets/gameplay/mechanics/040_spike.png"
+  },
+  "actions": {
+    "color_square":   "res://assets/gameplay/mechanics/041_color_square.png",
+    "fast_forward":   "res://assets/gameplay/mechanics/042_fast_forward.png",
+    "arrow_right":    "res://assets/gameplay/mechanics/043_arrow_right.png",
+    "shuffle":        "res://assets/gameplay/mechanics/044_shuffle.png",
+    "double_score":   "res://assets/gameplay/mechanics/045_double_score.png"
+  },
+  "portals_boosters": {
+    "portal_blue": "res://assets/gameplay/mechanics/046_portal_blue.png",
+    "portal_green":"res://assets/gameplay/mechanics/047_portal_green.png",
+    "cannon":      "res://assets/gameplay/mechanics/048_cannon.png",
+    "magnet":      "res://assets/gameplay/mechanics/049_magnet.png",
+    "swap_arrows": "res://assets/gameplay/mechanics/050_swap_arrows.png"
+  },
+  "economy": {
+    "gumball_machine":"res://assets/gameplay/extras/051_gumball_machine.png",
+    "coins_stack":   "res://assets/gameplay/extras/052_coins_stack.png",
+    "crown_coin":    "res://assets/gameplay/extras/053_crown_coin.png",
+    "heart":         "res://assets/gameplay/extras/054_heart.png",
+    "infinite_lives":"res://assets/gameplay/extras/055_infinite_lives.png",
+    "no_ads":        "res://assets/gameplay/extras/056_no_ads.png",
+    "gift":          "res://assets/gameplay/extras/057_gift.png",
+    "shop_bag":      "res://assets/gameplay/extras/058_shop_bag.png",
+    "treasure_chest":"res://assets/gameplay/extras/059_treasure_chest.png",
+    "coconut":       "res://assets/gameplay/extras/060_coconut.png",
+    "energy_potion": "res://assets/gameplay/extras/061_energy_potion.png",
+    "rocket":        "res://assets/gameplay/extras/062_rocket.png",
+    "settings":      "res://assets/gameplay/extras/063_settings.png"
+  },
+  "ui_buttons": {
+    "play":       "res://assets/ui/buttons/button_play.png",
+    "restart":    "res://assets/ui/buttons/button_restart.png",
+    "retry":      "res://assets/ui/buttons/button_retry.png",
+    "pause":      "res://assets/ui/buttons/icon_pause.png",
+    "restart_ic": "res://assets/ui/buttons/icon_restart.png",
+    "store":      "res://assets/ui/buttons/065_store.png",
+    "plus":       "res://assets/ui/buttons/066_plus.png",
+    "close":      "res://assets/ui/buttons/067_close.png",
+    "edit":       "res://assets/ui/buttons/068_edit.png",
+    "check":      "res://assets/ui/buttons/069_check.png"
+  },
+  "ui_level_nodes": {
+    "level_1": "res://assets/ui/buttons/070_level_1.png",
+    "level_2": "res://assets/ui/buttons/071_level_2.png",
+    "level_3": "res://assets/ui/buttons/072_level_3.png",
+    "hard":    "res://assets/ui/buttons/073_hard.png"
+  },
+  "celebration": {
+    "star_gold_1": "res://assets/ui/results/074_star_gold_1.png",
+    "star_gold_2": "res://assets/ui/results/075_star_gold_2.png",
+    "star_gold_3": "res://assets/ui/results/076_star_gold_3.png",
+    "star_silver": "res://assets/ui/results/077_star_silver.png",
+    "star_bronze": "res://assets/ui/results/078_star_bronze.png",
+    "sparkles_gold": "res://assets/ui/results/079_sparkles_gold.png",
+    "sparkles_blue": "res://assets/ui/results/080_sparkles_blue.png",
+    "sparkles_pink": "res://assets/ui/results/081_sparkles_pink.png",
+    "sparkle_burst": "res://assets/ui/results/082_sparkle_burst.png",
+    "confetti":      "res://assets/ui/results/083_confetti.png",
+    "crown":         "res://assets/ui/results/084_crown.png"
+  },
+  "ui_brand": {
+    "logo":        "res://assets/ui/brand/logo.png",
+    "app_icon":    "res://assets/ui/brand/app_icon.png"
+  },
+  "ui_backgrounds": {
+    "bg_gameplay": "res://assets/ui/backgrounds/background.png",
+    "map_path":    "res://assets/ui/backgrounds/saga_path.png",
+    "menu_bg":     "res://assets/ui/backgrounds/MenuBackground.png"
+  },
+  "ui_panels": {
+    "panel_star":    "res://assets/ui/panels/panel_medium_star.png",
+    "panel_victory": "res://assets/ui/panels/panel_victory_large.png",
+    "panel_info":    "res://assets/ui/panels/panel_info_small.png",
+    "panel_pill":    "res://assets/ui/panels/panel_pill_label.png",
+    "panel_dialog":  "res://assets/ui/panels/panel_dialog_wide.png"
+  },
+  "ui_tutorial": {
+    "pointer":   "res://assets/ui/tutorial/tutorial_hand_pointer.png",
+    "ripple":    "res://assets/ui/tutorial/tutorial_tap_ripple.png",
+    "swipe":     "res://assets/ui/tutorial/tutorial_swipe_arrow.png",
+    "bubble":    "res://assets/ui/tutorial/tutorial_callout_bubble.png"
+  },
+  "ui_results": {
+    "victory": "res://assets/ui/results/victory.png",
+    "game_over": "res://assets/ui/results/game_over.png"
+  },
+  "avatars": {
+    "avatar_01_panda_king":   "res://assets/ui/avatars/avatar_01_panda_king.png",
+    "avatar_02_dragon":       "res://assets/ui/avatars/avatar_02_dragon.png",
+    "avatar_03_pirate_octopus":"res://assets/ui/avatars/avatar_03_pirate_octopus.png",
+    "avatar_04_astronaut_cat":"res://assets/ui/avatars/avatar_04_astronaut_cat.png",
+    "avatar_05_friendly_robot":"res://assets/ui/avatars/avatar_05_friendly_robot.png",
+    "avatar_06_lion_king":    "res://assets/ui/avatars/avatar_06_lion_king.png",
+    "avatar_07_pilot_penguin":"res://assets/ui/avatars/avatar_07_pilot_penguin.png",
+    "avatar_08_lucky_leprechaun":"res://assets/ui/avatars/avatar_08_lucky_leprechaun.png",
+    "avatar_09_shark":        "res://assets/ui/avatars/avatar_09_shark.png",
+    "avatar_10_wizard_owl":   "res://assets/ui/avatars/avatar_10_wizard_owl.png",
+    "avatar_11_frog_king":    "res://assets/ui/avatars/avatar_11_frog_king.png",
+    "avatar_12_samurai_dog":  "res://assets/ui/avatars/avatar_12_samurai_dog.png"
+  },
+  "audio": {
+    "ui_tap":           "res://assets/audio/sfx/button_tap.wav",
+    "tray_select":      "res://assets/audio/sfx/tile_tap.wav",
+    "marble_release":   "res://assets/audio/sfx/marble_drop.wav",
+    "marble_roll":      "res://assets/audio/sfx/belt_hum_loop.wav",
+    "receiver_fill":    "res://assets/audio/sfx/slot_fill_1.wav",
+    "receiver_complete":"res://assets/audio/sfx/stars_appear.wav",
+    "belt_warning":     "res://assets/audio/sfx/belt_jam.wav",
+    "booster_use":      "res://assets/audio/sfx/cannon.wav",
+    "victory":          "res://assets/audio/sfx/level_complete.wav",
+    "failure":          "res://assets/audio/sfx/fail.wav",
+    "lobby_music":      "res://assets/audio/music/bgm_lobby.wav",
+    "gameplay_music":   "res://assets/audio/music/bgm_game.wav",
+    "ice_break":        "res://assets/audio/sfx/ice_break.wav",
+    "mystery_reveal":   "res://assets/audio/sfx/mystery_reveal.wav",
+    "magnet":           "res://assets/audio/sfx/magnet.wav",
+    "shuffle":          "res://assets/audio/sfx/shuffle.wav",
+    "booster_locked":   "res://assets/audio/sfx/booster_locked.wav"
+  }
+}

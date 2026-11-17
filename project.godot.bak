@@ -1,0 +1,33 @@
+config_name = "ChromaLoop"
+version_major = 1
+version_minor = 2
+version_patch = 0
+
+window/video/width = 540
+window/video/height = 960
+window/video/resizable = false
+window/video/borderless = false
+window/video/fullscreen = false
+window/video/scaling_mode = 1
+window/video/aspect = 1
+window/video/shrink_mode = 2
+window/video/use_hdr = false
+
+window/platform_icons = PackedStringArray(["res://assets/ui/brand/app_icon.png"])
+
+rendering/renderer/rendering_method = "gl_compatibility"
+
+input/mouse_emulation_touch_enabled = false
+
+feature_tags = PackedStringArray(["GLES3"])
+
+main_scene = "res://scenes/app/GameRoot.tscn"
+
+application/config/use_custom_data_dir = false
+
+[autoload]
+SceneRouter="res://scripts/autoload/SceneRouter.gd"
+PlayerProgress="res://scripts/autoload/PlayerProgress.gd"
+AudioDirector="res://scripts/autoload/AudioDirector.gd"
+AssetCatalog="res://scripts/autoload/AssetCatalog.gd"
+LevelRepository="res://scripts/data/LevelRepository.gd"

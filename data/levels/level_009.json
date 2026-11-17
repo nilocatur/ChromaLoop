@@ -1,0 +1,182 @@
+{
+  "schema_version": 1,
+  "rules_version": 1,
+  "id": "level_009",
+  "number": 9,
+  "title": "Prism Order",
+  "difficulty": "medium",
+  "mechanic_tags": [
+    "basic_matching"
+  ],
+  "seed": 1009,
+  "belt_capacity": 14,
+  "lane_count": 4,
+  "tray_marble_count": 9,
+  "moves_limit": 4,
+  "starting_boosters": {
+    "sweep": 0,
+    "picker": 0,
+    "reorder": 0
+  },
+  "allowed_boosters": [],
+  "trays": [
+    {
+      "id": "t1",
+      "grid_x": 0,
+      "grid_y": 0,
+      "type": "standard",
+      "marbles": [
+        "yellow",
+        "yellow",
+        "yellow",
+        "yellow",
+        "yellow",
+        "yellow",
+        "yellow",
+        "yellow",
+        "yellow"
+      ]
+    },
+    {
+      "id": "t2",
+      "grid_x": 1,
+      "grid_y": 0,
+      "type": "standard",
+      "marbles": [
+        "purple",
+        "purple",
+        "purple",
+        "purple",
+        "purple",
+        "purple",
+        "purple",
+        "purple",
+        "purple"
+      ]
+    },
+    {
+      "id": "t3",
+      "grid_x": 2,
+      "grid_y": 0,
+      "type": "standard",
+      "marbles": [
+        "pink",
+        "pink",
+        "pink",
+        "pink",
+        "pink",
+        "pink",
+        "pink",
+        "pink",
+        "pink"
+      ]
+    },
+    {
+      "id": "t4",
+      "grid_x": 0,
+      "grid_y": 1,
+      "type": "standard",
+      "marbles": [
+        "blue",
+        "blue",
+        "blue",
+        "blue",
+        "blue",
+        "blue",
+        "blue",
+        "blue",
+        "blue"
+      ]
+    }
+  ],
+  "lanes": [
+    [
+      {
+        "id": "l1_r1",
+        "color": "pink",
+        "capacity": 3
+      },
+      {
+        "id": "l1_r2",
+        "color": "blue",
+        "capacity": 3
+      },
+      {
+        "id": "l1_r3",
+        "color": "blue",
+        "capacity": 3
+      }
+    ],
+    [
+      {
+        "id": "l2_r1",
+        "color": "purple",
+        "capacity": 3
+      },
+      {
+        "id": "l2_r2",
+        "color": "yellow",
+        "capacity": 3
+      },
+      {
+        "id": "l2_r3",
+        "color": "yellow",
+        "capacity": 3
+      }
+    ],
+    [
+      {
+        "id": "l3_r1",
+        "color": "pink",
+        "capacity": 3
+      },
+      {
+        "id": "l3_r2",
+        "color": "purple",
+        "capacity": 3
+      },
+      {
+        "id": "l3_r3",
+        "color": "yellow",
+        "capacity": 3
+      }
+    ],
+    [
+      {
+        "id": "l4_r1",
+        "color": "purple",
+        "capacity": 3
+      },
+      {
+        "id": "l4_r2",
+        "color": "pink",
+        "capacity": 3
+      },
+      {
+        "id": "l4_r3",
+        "color": "blue",
+        "capacity": 3
+      }
+    ]
+  ],
+  "obstacles": [],
+  "objectives": {
+    "clear_all_trays": true
+  },
+  "rewards": {
+    "coins": 65,
+    "stars_max": 3
+  },
+  "validation": {
+    "expected_trace": [
+      "t1",
+      "t2",
+      "t3",
+      "t4"
+    ],
+    "solution_count": 12,
+    "validated_at": "2026-11-18",
+    "rules_version": 1,
+    "test_checksum": "dccffc4a627a422d"
+  }
+}
